@@ -1,0 +1,14 @@
+
+# Create the Github repository and push the code there:
+
+git remote add origin https://github.com/mihaistan81/node-weather-application.git
+git push -u origin master
+
+# Heroku
+# add ssh key to Heroku
+heroku keys:add
+# crate the application on th heroku repo
+heroku create mihai-weather-application
+
+# Check the application
+npm run start
